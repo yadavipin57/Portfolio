@@ -6,23 +6,23 @@ const Header = () => {
       </div>
       <div>
         <ul className="text-xl flex items-center justify-evenly gap-4 ">
-          <li className="px-2 py-1 cursor-pointer rounded-lg hover:bg-[#E1451D] hover:text-white">
+          <li className="px-2 py-1 cursor-pointer rounded-lg hover:text-[#E1451D] hover:underline">
             <a href="#">Home</a>
           </li>
-          <li className="px-2 py-1 cursor-pointer rounded-lg hover:bg-[#E1451D] hover:text-white">
+          <li className="px-2 py-1 cursor-pointer rounded-lg hover:text-[#E1451D] hover:underline">
             <a href="#projects">Projects</a>
           </li>
-          <li className="px-2 py-1 cursor-pointer rounded-lg hover:bg-[#E1451D] hover:text-white">
+          <li className="px-2 py-1 cursor-pointer rounded-lg hover:text-[#E1451D] hover:underline">
             <a href="#">Skills</a>
           </li>
-          <li className="px-2 py-1 cursor-pointer rounded-lg hover:bg-[#E1451D] hover:text-white">
+          <li className="px-2 py-1 cursor-pointer rounded-lg hover:text-[#E1451D] hover:underline">
             <a href="#">About</a>
           </li>
-          <li className="px-2 py-1 cursor-pointer rounded-lg hover:bg-[#E1451D] hover:text-white">
+          <li className="px-2 py-1 cursor-pointer rounded-lg hover:text-[#E1451D] hover:underline">
             <a href="#">Education</a>
           </li>
-          <li className="px-2 py-1 cursor-pointer rounded-lg hover:bg-[#E1451D] hover:text-white">
-            <a href="#">Education</a>
+          <li className="px-2 py-1 cursor-pointer rounded-lg hover:text-[#E1451D] hover:underline">
+            <a href="#">Contact</a>
           </li>
 
         </ul>
