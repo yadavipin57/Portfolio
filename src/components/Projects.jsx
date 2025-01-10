@@ -1,7 +1,8 @@
 const Projects = () => {
     return (
-      <div className="p-10 mt-10 text-white bg-[#303030]">
-        <div id="projects">
+      <div className="bg-[#303030]" id="projects">
+        <div className="mx-auto w-[80%] p-10 mt-10 text-white " >
+        <div>
           <h2 className="text-[#E1451D] text-3xl font-bold underline">Projects</h2>
         </div>
         <div className="px-16 py-8 text-white flex gap-8 items-center justify-between flex-wrap">
@@ -77,6 +78,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
     );
   };

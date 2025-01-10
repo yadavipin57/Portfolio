@@ -1,7 +1,8 @@
 const Skills = () => {
   return (
-    <div className="p-10 mt-10 text-[#303030] ">
-      <div id="skills">
+   <div id="skills">
+     <div className="mx-auto w-[80%] p-10 mt-10 text-[#303030] " >
+      <div >
         <h2 className="text-3xl font-bold underline">Skills</h2>
       </div>
       <div className="mt-10 px-5 flex flex-wrap items-center justify-center gap-8">
@@ -36,13 +37,13 @@ const Skills = () => {
           title="MySQL Database"
         />
         <img
-          className="w-[200px] h-[100px] cursor-pointer hover:border-b-2 border-[#E1451D]"
+          className="w-[240px] h-[100px] cursor-pointer hover:border-b-2 border-[#E1451D]"
           src="./Redux.png"
           alt="Redux"
           title="Redux - State Management"
         />
         <img
-          className="w-[360px] h-[100px] cursor-pointer hover:border-b-2 border-[#E1451D]"
+          className="w-[400px] h-[100px] cursor-pointer hover:border-b-2 border-[#E1451D]"
           src="./TailwindCSS.png"
           alt="TailwindCSS"
           title="Tailwind CSS"
@@ -79,6 +80,7 @@ const Skills = () => {
         />
       </div>
     </div>
+   </div>
   );
 };
 

@@ -7,3 +7,7 @@
 .App{
   font-family: "poppins";
 } */
+
+html {
+  scroll-behavior: smooth;
+}
