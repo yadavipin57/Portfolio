@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import toast from "react-toastify";
+import { toast } from "react-toastify";
 
 const Contact = () => {
   const copyRef = useRef();
