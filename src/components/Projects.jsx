@@ -12,7 +12,7 @@ const Projects = () => {
             <div className="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]">
               {/* Visible on hover */}
               <h4 className="text-white mx-auto w-fit text-2xl font-bold group-hover:block">
-                <a href="#">NetflixGPT</a>
+                <a href="#">Project</a>
               </h4>
               {/* Initially hidden, visible on hover */}
               <p className="text-white hidden group-hover:block  text-justify">
@@ -30,7 +30,7 @@ const Projects = () => {
             <div className="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]">
               {/* Visible on hover */}
               <h4 className="text-white mx-auto w-fit text-2xl font-bold group-hover:block">
-                <a href="#">NetflixGPT</a>
+                <a href="#">Project</a>
               </h4>
               {/* Initially hidden, visible on hover */}
               <p className="text-white hidden group-hover:block  text-justify">
@@ -48,7 +48,7 @@ const Projects = () => {
             <div className="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]">
               {/* Visible on hover */}
               <h4 className="text-white mx-auto w-fit text-2xl font-bold group-hover:block">
-                <a href="#">NetflixGPT</a>
+                <a href="#">Project</a>
               </h4>
               {/* Initially hidden, visible on hover */}
               <p className="text-white hidden group-hover:block  text-justify">
@@ -66,7 +66,7 @@ const Projects = () => {
             <div className="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]">
               {/* Visible on hover */}
               <h4 className="text-white mx-auto w-fit text-2xl font-bold group-hover:block">
-                <a href="#">NetflixGPT</a>
+                <a href="#">Project</a>
               </h4>
               {/* Initially hidden, visible on hover */}
               <p className="text-white hidden group-hover:block  text-justify">

@@ -3,6 +3,7 @@ const Banner = () => {
     <div>
       <div className="mx-auto w-[80%] px-10 text-[#303030] flex flex-wrap justify-between items-center">
         <div className="w-3/5">
+          <h1 className="text-4xl font-bold">THIS SITE IS UNDER CONSTRUCTION</h1>
           <h3 className="text-2xl font-bold">Hi,</h3>
           <h2 className="text-4xl font-bold">
             I&apos;m <span className="text-[#E1451D]">Vipin</span> <br /> a
