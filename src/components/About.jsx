@@ -1,13 +1,13 @@
 const About = () => {
   return (
     <div className=" bg-[#303030] " id="about">
-      <div className="mx-auto w-[80%] p-10 mt-10 text-white">
+      <div className="mx-auto sm:w-[90%] md:w-[80%] px-2 pt-4 sm:p-6 md:p-10 mt-10 text-white ">
         <div>
           <h2 className="text-[#E1451D] text-3xl font-bold underline">About</h2>
         </div>
         <div>
-          <div className="p-10 pb-0">
-            <p className="text-lg">
+          <div className="p-2 sm:p-10 pb-0">
+            <p className="text-md text-justify sm:text-lg">
               Hello! 👋 I&apos;m Vipin, a passionate Frontend Developer with
               expertise in building engaging and responsive user interfaces.
               With a solid foundation in technologies like HTML5, CSS3,
@@ -16,9 +16,9 @@ const About = () => {
               appealing web applications.
             </p>
           </div>
-          <div className="p-10 pb-0">
+          <div className="p-4 sm:p-10 pb-0">
             <h3 className="text-xl font-bold">Who am I?</h3>
-            <div className="text-lg">
+            <div className="text-md text-justify sm:text-lg">
               <ul className="list-disc">
                 <li>
                   I&apos;m someone who thrives in learning new things on the go,
@@ -37,9 +37,9 @@ const About = () => {
               </ul>
             </div>
           </div>
-          <div className="p-10 pb-0">
+          <div className=" pb-4 p-4 sm:p-10 sm:pb-0">
             <h3 className="text-xl font-bold">Skills & Expertise:</h3>
-            <div className="text-lg">
+            <div className="text-md text-justify sm:text-lg">
               <ul className="list-disc">
                 <li>
                   Frontend Technologies: HTML5, CSS3, JavaScript, React.js,

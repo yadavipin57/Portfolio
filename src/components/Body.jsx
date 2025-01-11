@@ -10,7 +10,7 @@ import { ToastContainer } from 'react-toastify';
 
 const Body = () =>{
     return (
-        <div className="mx-auto my-2 sm:my-8 h-fit">
+        <div className="mx-auto my-2 sm:my-8 h-fit w-screen">
             <Banner/>
             <Projects/>
             <Skills/>

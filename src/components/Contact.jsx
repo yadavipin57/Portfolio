@@ -18,15 +18,15 @@ const Contact = () => {
 
   return (
     <div className="bg-[#303030]" id="contact">
-      <div className="mx-auto w-[80%] p-10 mt-10 text-white ">
+      <div className="mx-auto sm:w-[90%] md:w-[80%] px-2 pt-4 sm:p-6 md:p-10 mt-10 text-white pb-10">
         <div>
           <h2 className="text-[#E1451D] text-3xl font-bold underline">
             Contact
           </h2>
         </div>
 
-        <div className="my-8 px-32 flex items-center flex-wrap justify-between">
-          <div className="px-2 py-1 rounded-lg text-[#303030] bg-[#fff] flex items-center gap-2">
+        <div className="my-8 flex items-center flex-wrap justify-between gap-4">
+          <div className="mx-auto w-[260px] px-2 py-1 rounded-lg text-[#303030] bg-[#fff] flex justify-center items-center gap-2">
             <img
               className="w-12 h-10 rounded-full"
               src="./Whatsapp.webp"
@@ -42,7 +42,7 @@ const Contact = () => {
             </p>
           </div>
 
-          <div className="px-2 py-1 rounded-lg text-[#303030] bg-[#fff] flex items-center gap-2">
+          <div className="mx-auto  w-[260px] px-2 py-1 rounded-lg text-[#303030] bg-[#fff] flex justify-center items-center gap-2">
             <img className="w-10 h-10" src="./Gmail.png" alt="" />
             <p
               className="text-lg cursor-pointer"
@@ -54,7 +54,7 @@ const Contact = () => {
             </p>
           </div>
 
-          <div className="px-2 py-1 rounded-lg text-[#303030] bg-[#fff] flex items-center gap-2">
+          <div className="mx-auto  w-[260px] px-2 py-1 rounded-lg text-[#303030] bg-[#fff] flex justify-center items-center gap-2">
             <img className="w-10 h-10" src="./Linkedin.png" alt="" />
             <p className="text-lg" title="Click to go to Linkedin">
               <a href="https://www.linkedin.com/in/yadavipin57" target="_blank">
@@ -63,7 +63,7 @@ const Contact = () => {
             </p>
           </div>
 
-          <div className="px-2 py-1 rounded-lg text-[#303030] bg-[#fff] flex items-center gap-2">
+          <div className="mx-auto  w-[260px] px-2 py-1 rounded-lg text-[#303030] bg-[#fff] flex justify-center items-center gap-2">
             <img className="w-10 h-10" src="./Github.png" alt="" />
             <p className="text-lg" title="Click to go to Github">
               <a href="https://github.com/yadavipin57" target="_blank">
