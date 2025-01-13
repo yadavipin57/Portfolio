@@ -28,7 +28,7 @@ const Projects = () => {
                     src={`${projectPagesSRC[index]}.png`}
                     alt=""
                   />
-                  <p  className="px-1 absolute inset-0 text-center hidden group-hover:flex items-center justify-center bg-black bg-opacity-80 text-white text-lg font-semibold"
+                  <p  className="px-1 absolute inset-0 text-center opacity-0 group-hover:flex items-center justify-center bg-black bg-opacity-80 text-white text-lg font-semibold transition-opacity group-hover:opacity-100 duration-300"
                   >{projectDescription[index]}</p>
                   <h4
                     className="mt-2 mx-auto w-full text-center text-white text-lg bg-[#E1451D] rounded-lg sm:text-2xl font-bold "
@@ -53,27 +53,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
-{/* <div
-  className="w-[80%] sm:w-[32vw] h-[32vh] text-black rounded-lg bg-[#E1451D] shadow-2xl hover:shadow-3xl cursor-pointer relative group"
-  key={projectName}
->
-  <div className="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]">
-    <img
-      className="absolute inset-0 w-full h-full object-cover z-[-1]"
-      src={`${projectPagesSRC[index]}.png`}
-      alt=""
-    />
-    <h4
-      className="mx-auto w-full text-center text-white text-2xl font-bold group-hover:block"
-      title="Visit site"
-    >
-      <a className="hover:underline" href={projectLink[index]} target="_blank">
-        {projectName}
-      </a>
-    </h4>
-    <p className="text-white hidden md:group-hover:block  text-justify">
-      {projectDescription[index]}
-    </p>
-  </div>
-</div>; */}

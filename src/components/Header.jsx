@@ -21,7 +21,7 @@ const Header = () => {
       </div>
       {/* Menu icons for smaller screens */}
       <div
-        className="sm:hidden absolute right-2 w-fit bg-[#303030] rounded-sm"
+        className="sm:hidden absolute z-10  right-2 w-fit bg-[#303030] rounded-sm"
         onClick={handleMenuOpen}
       >
         <div className={`${isHidden ? "block" : "hidden"} cursor-pointer`}>
@@ -32,7 +32,7 @@ const Header = () => {
       <div
         className={`${
           isHidden ? "translate-x-full" : "translate-x-0"
-        } sm:translate-x-0 fixed sm:static top-0 right-0 h-full sm:h-auto w-1/2 sm:w-auto max-w-[250px] sm:max-w-none bg-[#303030] sm:bg-transparent transition-transform duration-300 ease-in-out`}
+        } sm:translate-x-0 fixed z-10  sm:static top-0 right-0 h-full sm:h-auto w-1/2 sm:w-auto max-w-[250px] sm:max-w-none bg-[#303030] sm:bg-transparent transition-transform duration-300 ease-in-out`}
       >
         <div
           className="sm:hidden absolute top-3 right-2 w-fit"
