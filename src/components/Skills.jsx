@@ -91,7 +91,7 @@ const Skills = () => {
             title="HTML5"
           />
           <img
-            className="w-8 h-[50px] cursor-pointer hover:border-b-2 border-[#E1451D] hover:transform hover:translate-y-[-5px] hover:shadow-2xl transition-all duration-300"
+            className="w-10 h-[50px] cursor-pointer hover:border-b-2 border-[#E1451D] hover:transform hover:translate-y-[-5px] hover:shadow-2xl transition-all duration-300"
             src="./CSS3.png"
             alt="CSS3"
             title="CSS3"
